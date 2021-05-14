@@ -1,0 +1,30 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@100&display=swap');
+
+
+* {
+    padding: 0;
+    margin: 0 ;
+}
+
+.heading .banner-background .banner {
+    font-family: 'Roboto', sans-serif;
+    font-size: 3.5rem;
+    text-transform: uppercase;
+
+}
+
+.img[src] {
+    background-color: transparent!important;
+}
+.heading .logo {
+    display: block;
+    max-width: 100%;
+    cursor: pointer;
+}
+
+.places-text-block-inn {
+    font-family: 'Roboto', sans-serif;
+    font: 34px;
+    
+}
+
