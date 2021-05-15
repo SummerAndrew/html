@@ -6,11 +6,35 @@
     margin: 0 ;
 }
 
+nav,
+footer,
+header,
+aside {
+  display: block;
+}
+
+.banner-background {
+    width: 100%;
+    height: 100%;
+    background: url(../img/travelone.jpg);
+    background-size: cover;
+}
+
+.heading .banner-background {
+    background-image: url(../img/pexels-thanakorn.jpg);
+    background-size: cover;
+    background-position: center;
+    
+}
+
+.logo {
+    padding: 20, 0, 20, 20;
+}
+
 .heading .banner-background .banner {
     font-family: 'Roboto', sans-serif;
     font-size: 3.5rem;
     text-transform: uppercase;
-
 }
 
 .img[src] {

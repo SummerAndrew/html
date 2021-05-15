@@ -3,6 +3,7 @@
 
 <head>
     <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>InstaTrip</title>
     <link rel="icon" href="img/grec1.jpg">
@@ -10,15 +11,15 @@
 </head>
 
 <body>
-    <header id="home">
+    <header id="home" class="head-conteiner">
         <div class="heading">
-            <div class="logo"><img src="img/top-banner.svg" alt="logo"></div>
+            <div class="logo"><img src="img/top-banner.svg" alt="logo" width="176" height="auto"></div>
             <label class="burger-icon" for="burger-checkbox">☰</label>
-            <button type="button" class="w-burger w-hide--lg w-hide--xl" data-handler="w-burger__inner"
-                title="switch menu">Menu
+            <button type="button" class="burger-menu" data-handler="w-burger__inner" title="switch menu">Menu
                 <span class="w-burger__inner"></span>
             </button>
         </div>
+        <a href="tel:+(380)95 43 43 766" data-action="phone" class="ui-link">+(380)95 43 43 766</a>
         <nav>
             <a href="#home">About us</a>
             <a href="#products">Tours</a>
@@ -27,69 +28,46 @@
             <a href="#cart">Phone number</a>
             <a href="#cart">Change language</a>
         </nav>
-        </div>
-            <div class="banner-background"><img src="img/travelone.jpg" alt="first_background">
-                <div class="banner">
-                <h1>See the Beauty of the Whole World.</h1>
-                </div>
-            </div>
-        <div class="button-content">
-            <span class="button__content_1_I">Learn About Our Tours</span>
-        </div>
     </header>
     <main>
+        <div class="banner-background">
+            <div class="banner">
+                <h1>See the Beauty of the Whole World.</h1>
+            </div>
+            <div class="button-content">
+                <span class="button--content">Learn About Our Tours</span>
+            </div>
+        </div>
         <section class="w-section">
             <div class="w-section__inner">
                 <header class="w-section__header">
-                    <div class="only-the-most-beautiful-places" data-columns-count="3">
-                        <div class="3s-colums-inner">
-                            <div class="1st-column-only-the-most-beautiful-places">
-                                <div class="bold-text-only-the-most-beautiful-places" data-column-size="4">
-                                    <div class="bold-text-only-the-most-beautiful-places__inner">
-                                        <p class="places__text" data-component="text">
-                                            <span class="places-text-block-inn">
-                                                <span class="places-text-block">Only the Most Beautiful Places
-                                                    <span>.</span>
-                                                </span>
-                                            </span>
-                                        </p>
-                                        <p class="popular-trips" data-component="text">
-                                            <span class="popular-trips-block" style="display: block;">
-                                                <span class="popular-trips-block-text">
-                                                    <span style="color: rgb(136,134,146);">
-                                                        <em>- popular trips</em>
-                                                    </span>
-                                                </span>
-                                            </span>
-                                        </p>
-                                    </div>
-                                </div>
-                                <div class="empty-2nd-of-3d-column" data-column-size="2">
-                                    <div class="empty-2nd-of-3d-column-inner"></div>
-                                </div>
-                                <div class="3rd-column-text" data-column-size="6">
-                                    <div class="3rd-column-text-border">
-                                        <p class="text-3rd-column-text" data-component="text">
-                                            <span class="text-block-3rd-column" style="display: block;">
-                                                <span class="text-block-3rd-column-content">
-                                                    The world is so big and is waiting for you to see it!
-                                                    During our tours, you will visit the most beautiful places and will
-                                                    be able to take photos and videos that will blow your Instagram!
-                                                    Each of our tours is carefully designed. In addition, a professional
-                                                    photographer travels with each group.
-                                                </span>
-                                            </span>
-                                        </p>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                </header>
+                    <span class="places-text-block">Only the Most Beautiful Places
+                        <span>.</span>
+                    </span>
+                    <p class="popular-trips" data-component="text">
+                        <span class="popular-trips-block" style="display: block;">
+                            <span class="popular-trips-block-text">
+                                <span style="color: rgb(136,134,146);">
+                                    <em>- popular trips</em>
+                                </span>
+                            </span>
+                        </span>
+                    </p>
+            </div>
+            <p class="text-3rd-column-text" data-component="text">
+                <span class="text-block-3rd-column" style="display: block;">
+                    <span class="text-block-3rd-column-content">
+                        The world is so big and is waiting for you to see it!
+                        During our tours, you will visit the most beautiful places and will
+                        be able to take photos and videos that will blow your Instagram!
+                        Each of our tours is carefully designed. In addition, a professional
+                        photographer travels with each group.
+                    </span>
+                </span>
+            </p>
+            </header>
             </div>
         </section>
-        <a href="tel:+(380)95 43 43 766" data-action="phone" class="ui-link">+(380)95 43 43 766</a>
-
         <div class="product-list">
             <article>
                 <img src="img/grec1.jpg" alt="greece">
@@ -310,8 +288,8 @@
             <em>FAQ</em>
             <p>We are always ready to advise you and answer any question.<br>
                 Here are some answers to the most common questions. Find<br>
-                    out everything that interests you right now or contact us<br>
-                    in any convenient way!</p>
+                out everything that interests you right now or contact us<br>
+                in any convenient way!</p>
             <h4>Can I pay extra for a luxury hotel?</h4>
             <p>Of course, we offer you several hotel options<br>
                 that you can choose from.</p>
@@ -336,10 +314,8 @@
                 itineraries of our tours.</em>
             <button>Drop a Line</button>
         </div>
-    <div class="map">
-
-    </div>
-
+        <div class="map">
+        </div>
     </main>
     <footer>
         <div class="logo"><img src="img/topBanner.svg" alt="logo">
@@ -358,10 +334,10 @@
                 Your email: <input type="email" placeholder="Your email">
             </label>
             <input type="submit">
-        <div class="end-page">
-            <p>© Created by Andrew Yurkliv<br>
-                All rights Reserved</p>
-        </div>
+            <div class="end-page">
+                <p>© Created by Andrew Yurkliv<br>
+                    All rights Reserved</p>
+            </div>
     </footer>
 </body>
 
