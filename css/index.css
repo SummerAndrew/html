@@ -1,54 +1,113 @@
 @import url('https://fonts.googleapis.com/css2?family=Roboto:wght@100&display=swap');
 
+:root {
+    font-family: 'Roboto', sans-serif;
+    --main-color: #3f3631;
+    --accent-color: #707070;
+    --new-red: #FF3C42;
+}
 
 * {
     padding: 0;
-    margin: 0 ;
+    margin: 0;
 }
 
-nav,
-footer,
-header,
-aside {
-  display: block;
+
+body {
+    max-width: 980px;
+    margin: auto;
+
 }
 
-.banner-background {
-    width: 100%;
-    height: 100%;
-    background: url(../img/travelone.jpg);
-    background-size: cover;
+.banner-grop-main {
+    -webkit-font-smoothing: antialiased;
+    word-wrap: break-word;
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    border: 0;
+    font-size: 100%;
+    font: inherit;
+    vertical-align: baseline;
+    position: relative;
 }
 
-.heading .banner-background {
-    background-image: url(../img/pexels-thanakorn.jpg);
-    background-size: cover;
-    background-position: center;
-    
+#baner-group-id {
+    -webkit-font-smoothing: antialiased;
+    word-wrap: break-word;
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    border: 0;
+    font-size: 100%;
+    font: inherit;
+    vertical-align: baseline;
+    display: flex;
+    z-index: auto!important;
+    color: #3f3631;
+    position: static;
 }
 
-.logo {
-    padding: 20, 0, 20, 20;
+.w-block-background .background-wrapper_RZ2 {
+    -webkit-font-smoothing: antialiased;
+    word-wrap: break-word;
+    color: #3f3631;
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    border: 0;
+    font-size: 100%;
+    font: inherit;
+    vertical-align: baseline;
+    position: absolute;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    overflow: hidden;
+    z-index: 0;
+    border-radius: inherit;
+    transition: opacity .3s ease-out;
 }
 
-.heading .banner-background .banner {
-    font-family: 'Roboto', sans-serif;
-    font-size: 3.5rem;
-    text-transform: uppercase;
+.background_2xT {
+    -webkit-font-smoothing: antialiased;
+    word-wrap: break-word;
+    color: #3f3631;
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    border: 0;
+    font-size: 100%;
+    font: inherit;
+    vertical-align: baseline;
+    position: absolute;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    background: url("//res2.weblium.site/res/5f7b5a6fe2ab710021a74628/5f7cec1a9ba03700213161a7_optimized_1920.webp") 100% 91.92% / cover no-repeat;
 }
 
-.img[src] {
-    background-color: transparent!important;
-}
-.heading .logo {
+.w-section .w-section--xxl {
+    -webkit-font-smoothing: antialiased;
+    color: #3f3631;
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    border: 0;
+    font: inherit;
+    vertical-align: baseline;
     display: block;
-    max-width: 100%;
-    cursor: pointer;
+    flex-basis: 100%;
+    flex-shrink: 0;
+    position: relative;
+    min-width: 320px;
+    font-size: 16px;
+    line-height: 1.7;
+    font-family: Roboto,sans-serif;
+    font-weight: 400;
+    word-wrap: break-word;
+    padding-top: 160px;
+    padding-bottom: 205px;
 }
-
-.places-text-block-inn {
-    font-family: 'Roboto', sans-serif;
-    font: 34px;
-    
-}
-
